@@ -1,0 +1,10 @@
+For Linux
+cp -Rv ~/DO400/DO400-apps/simple-calculator/ \
+~/DO400/quality-checks
+
+For PowerShell
+
+cd ~/DO400/quality-checks
+
+ Copy-Item -Path simple-calculator `
+>> -Destination ~\DO400\quality-checks -Recurse
